@@ -3489,6 +3489,9 @@ msgstr "隧道接口的 MTU"
 msgid "Use TTL on tunnel interface"
 msgstr "隧道接口的 TTL"
 
+msgid "Use as Docker data (/opt)"
+msgstr "作为 Docker 数据分区使用 (/opt)"
+
 msgid "Use as external overlay (/overlay)"
 msgstr "作为外部 overlay 使用（/overlay）"
 
@@ -3522,7 +3525,7 @@ msgid ""
 msgstr ""
 "使用“添加”按钮来增加新的租约条目。“IPv4 地址”和“主机名”字段的值将被固定分配"
 "给“MAC 地址”字段标识的主机，“租期”是一个可选字段，可为每个主机单独设定 DHCP "
-"租期的时长，例如：12h、3d、inifinite，分别表示 12 小时、3 天、永久。"
+"租期的时长，例如：12h、3d、infinite，分别表示 12 小时、3 天、永久。"
 
 msgid "Used"
 msgstr "已用"
@@ -3978,3 +3981,75 @@ msgstr "« 后退"
 
 #~ msgid "VLAN Interface"
 #~ msgstr "VLAN 接口"
+
+msgid "Depends on factory set"
+msgstr "依赖于出厂设置值"
+
+msgid "Choose mtdblock"
+msgstr "选择MTD分区"
+
+msgid "Download mtdblock"
+msgstr "下载MTD分区"
+
+msgid "Save mtdblock"
+msgstr "备份MTD"
+
+msgid "Save mtdblock contents"
+msgstr "备份MTD内容"
+
+msgid "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS FEATURE IS FOR PROFESSIONALS! )"
+msgstr "点击\"备份MTD\"可以下载指定分区数据.(注意！仅提供给专业人士使用！)"
+
+msgid "Use all servers"
+msgstr "使用 all-servers 并发查询"
+
+msgid "Setting this flag forces dnsmasq to send all queries to all available servers. The reply from the server which answers first will be returned to the original requester."
+msgstr "对所有 DNS 服务器发起查询，选择回应最快的一条作为查询结果返回"
+
+msgid "Custom domain"
+msgstr "自定义挟持域名"
+
+msgid "Define a custom domain name and the corresponding PTR record"
+msgstr "自定义域名对应的IP地址（需要客户端DNS指向本路由）"
+
+msgid "Domain name"
+msgstr "域名（不带 HTTP(S)://）"
+
+msgid "Comments"
+msgstr "备注"
+
+msgid "Enables The 802.11k standard provides information to discover the best available access point"
+msgstr "启用 802.11k 自动寻找发现最佳可用接入点的信息"
+
+msgid "Enable neighbor report via radio measurements"
+msgstr "启用无线电测量邻居报告"
+
+msgid "Enable beacon report via radio measurements"
+msgstr "启用无线电测量信标报告"
+
+msgid "Enables 802.11v allows client devices to exchange information about the network topology,tating overall improvement of the wireless network."
+msgstr "启用 802.11v 将允许客户端设备交换有关网络拓扑的信息，从而全面改善无线网络漫游"
+
+msgid "extended sleep mode for stations"
+msgstr "扩展无线休眠节能模式"
+
+msgid "BSS Transition Management"
+msgstr "BSS 传输管理"
+
+msgid "UTC time at which the TSF timer is 0"
+msgstr "TSF计时器为0的UTC时间"
+
+msgid "Time advertisement"
+msgstr "广播同步时间"
+
+msgid "time zone"
+msgstr "时区"
+
+msgid "Local time zone as specified in 8.3 of IEEE Std 1003.1-2004"
+msgstr "本地时区采用 IEEE Std 1003.1-2004 的 8.3 格式（例如 UTC8）"
+
+msgid "Enable 256-QAM"
+msgstr "启用 256-QAM"
+
+msgid "802.11n 2.4Ghz Only"
+msgstr "只适合 802.11n 2.4Ghz"
